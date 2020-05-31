@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media='screen and (min-width: 140px) and (max-width: 380px) and (max-height:640px)' href="mobile.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <title>Contact</title>
+</head>
+<body>
+<header>
+<div class="list">
+    <a href="index.html">Home</a>
+    <a href="skills.html"> About</a>
+    <a href="projects.html"> Projects</a>
+    <a href="contact.html" id="active">Contact</a>
+</div>
+</header>
+<form  class="contact-body" action="https://formspree.io/xpzydaap" method="POST">
+    <div class="contact-container">
+        <div class="contact-head">
+            <p>Contact</p>
+        </div>
+        <div class="name-input">
+            <label class="name">Name</label>
+            <div class="input-group flex-nowrap">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="addon-wrapping">@</span>
+                </div>
+                <input type="text" name="name" id="contact-name" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping" required>
+              </div>
+        </div>
+        <div class="email-input">
+            <label class="name"> Email</label>
+            <div class="input-group flex-nowrap">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="addon-wrapping">email</span>
+                </div>
+                <input type="email" name="_replyto" id="contact-name" class="form-control" placeholder="email" aria-label="enail" aria-describedby="addon-wrapping" required>
+              </div>
+        </div>
+        <div class="message">
+            <label class="name">Message</label>
+                <textarea  name="meesage"  class="form-control" id="message-text" placeholder="message" aria-label="message" aria-describedby="addon-wrapping" required> </textarea>
+              </div>
+            <div class="status"> <p id="error"></p></div>
+              <button type="submit"  class="btn btn-danger submit btn-lg btn-block">Send</button>    
+    </div>
+
+</form>
+    <div>
+    <footer>
+        &copy; 2020 | Designed & Developed By Meenakshi |
+    </footer>
+    </div>
+<script src="valid.js"></script>
+</body>
+</html>
