@@ -188,11 +188,12 @@
       padding: 10px;
   }
   .contact-container{
-    width:100vw;
-    height: 82vh;
+    width:80vw;
+    height: 75vh;
     position: absolute;
 	box-sizing: border-box;
-	margin-left: 0px;
+	margin-left: 30px;
+	margin-right: 30px;
     padding:20px;
     border-radius: 5%;
     margin-top: 15px;
