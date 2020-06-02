@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'B612', sans-serif; 
-    font-size: 1rem;
+    /* font-size: 2rem; */
 }
 .list{
    width: 100vw;
@@ -20,7 +20,7 @@
 }
 .text{
     width: 100vw;
-    height: 55vh;
+    height: 88vh;
    padding: 100px;
    border: black solid 1px;
    /* background-color: black; */
@@ -60,13 +60,13 @@
 }
 /* about me */
 .about{
-        height:50vh;
+        height:65vh;
         color:black;
       
     }
     .intro{
       position: absolute;
-      top: 30%;
+      top: 40%;
       left: 50%;
         display: block;
         padding:10px;
@@ -95,7 +95,7 @@
         text-align: left;
         margin:0px;
         padding: 30px;
-        width: 60vw;
+        width: 85vw;
         animation: move 1s linear;
        border :none;
        border-radius: 0;
@@ -165,7 +165,7 @@
       text-align: left;
       margin: 20px;
       padding: 20px;
-      width:60vw;
+      width: 75vw;
       margin-left: auto;
       margin-right: auto;
       display: block;
@@ -196,14 +196,16 @@
   }
   .contact-container{
     
-    width:50vw;
-    height: 50vh;
-    position: absolute;
+    width:80vw;
+    height: 70vh;
+    position: relative;
 	box-sizing: border-box;
-    padding:20px;
+    padding:30px;
     border-radius: 5%;
-    margin-top: 15px;
-    margin-left: 200px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   
     background: linear-gradient(315deg, #e6e6e6, #ffffff);
     box-shadow:  -17px -17px 34px #b8b8b8, 
@@ -220,8 +222,8 @@
     }
   }
   .contact-body{
-    width: 50vw;
-    height: 50vh;
+    width: 100vw;
+    height: 80vh;
     box-sizing: border-box;
     
     background-color: #ffffff;
@@ -238,10 +240,12 @@
     
   }
   .name-input , .email-input , .message{
-    margin: 10px;
+    margin: 30px;
     font-size: 1rem;
     text-align: left;
+  
   }
+  
   #message-text{
     width: 100%;
     height: 100px;

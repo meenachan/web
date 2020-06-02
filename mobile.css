@@ -6,11 +6,15 @@
   
     font-size: 1rem;
 }
+main h1 {
+  margin-top: 30px;
+ 
+}
 .list{
    width: 100vw;
    font-size: 0.8rem;
    display: grid;
-   grid-template-columns: 80px 80px 80px 80px;
+   grid-template-columns: 60px 80px 80px 80px;
     margin: 0;
     padding: 20px;
     text-align: center; 
@@ -54,14 +58,14 @@
     height: 1.5rem;  
     clear: both;
     padding: 10px;
-    position: relative;
+    
     margin-top: 10px;
     font-size: 0.8rem;
   
 }
 /* about me */
 .about{
-        height:70vh;
+        height:75vh;
         color:black;
       
     }
@@ -92,7 +96,7 @@
     
     .textintro {
         text-align: left;
-        margin:30px;
+        margin:5px;
         padding: 30px;
         width: 90vw;
         animation: move 1s linear;
@@ -188,13 +192,13 @@
       padding: 10px;
   }
   .contact-container{
-    width:80vw;
-    height: 500px;
+    width:82vw;
+    height: 88vh;
     position: absolute;
 	box-sizing: border-box;
 	margin-left: 30px;
 	margin-right: 30px;
-    padding:20px;
+    padding:10px;
     border-radius: 5%;
     margin-top: 15px;
     background: linear-gradient(315deg, #e6e6e6, #ffffff);
@@ -212,8 +216,8 @@
     }
   }
   .contact-body{
-    width: 98.5vw;
-    height: 83vh;
+    width: 100vw;
+    height: 90vh;
     box-sizing: border-box;
     overflow: hidden;
     background-color: #ffffff;
